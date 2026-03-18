@@ -14,25 +14,23 @@ The dataset comprises various customer-level features, including tenure, monthly
 To accomplish these objectives, the project implements a full ML pipeline including preprocessing, feature engineering, model training, and validation. Dimensionality reduction methods (PCA, t-SNE, UMAP) were used to visualize patterns and support segmentation. Logistic Regression, Random Forest, and XGBoost models were trained for churn prediction, with XGBoost achieving the highest balanced performance. 
 
 ## Tools and Libraries 
-- Python (scikit-learn, XGBoost, pandas)
-- R (tidyverse, caret, ggplot2)
  
 1. Python Libraries: 
  
-• scikit-learn: For data preprocessing, classification models, and validation procedures. 
-• XGBoost: For building and optimizing gradient boosting models. 
-• Pandas and NumPy: For data manipulation and numerical computation. 
-• Matplotlib and Seaborn: For generating data visualizations and model insights. 
+- scikit-learn: For data preprocessing, classification models, and validation procedures. 
+- XGBoost: For building and optimizing gradient boosting models. 
+- Pandas and NumPy: For data manipulation and numerical computation. 
+- Matplotlib and Seaborn: For generating data visualizations and model insights. 
  
 2. R Libraries: 
  
-• tidyverse, data.table: For data manipulation and wrangling. 
-• ggplot2, cowplot, gridExtra: For rich and multi-faceted visualizations. 
-• caret, recipes, dplyr, forcats: For data preprocessing, feature engineering, and model tuning. 
-• randomForest, gbm, e1071, MASS: For implementing machine learning and statistical models. 
-• pROC: For model evaluation using ROC curves. 
-• cluster, FactoMineR, factoextra: For clustering analysis and dimensionality reduction. 
-• stats: For traditional statistical methods and unsupervised learning. 
+- tidyverse, data.table: For data manipulation and wrangling. 
+- ggplot2, cowplot, gridExtra: For rich and multi-faceted visualizations. 
+- caret, recipes, dplyr, forcats: For data preprocessing, feature engineering, and model tuning. 
+- randomForest, gbm, e1071, MASS: For implementing machine learning and statistical models. 
+- pROC: For model evaluation using ROC curves. 
+- cluster, FactoMineR, factoextra: For clustering analysis and dimensionality reduction. 
+- stats: For traditional statistical methods and unsupervised learning. 
  
 Computational Environment: All analyses were conducted in a reproducible Python environment (e.g., Jupyter Notebook or Colab), ensuring scalability and easy integration for future enhancements. All analyses were also performed in RStudio using .Rmd files, ensuring reproducibility, integrated documentation, and ease of future extension. 
 
