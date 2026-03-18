@@ -1,3 +1,2 @@
 *.Rmd linguist-language=R
-*.py linguist-detectable=true
-*.R linguist-detectable=true
+*.Rmd linguist-language=Python
