@@ -14,6 +14,8 @@ The dataset comprises various customer-level features, including tenure, monthly
 To accomplish these objectives, the project implements a full ML pipeline including preprocessing, feature engineering, model training, and validation. Dimensionality reduction methods (PCA, t-SNE, UMAP) were used to visualize patterns and support segmentation. Logistic Regression, Random Forest, and XGBoost models were trained for churn prediction, with XGBoost achieving the highest balanced performance. 
 
 ## Tools and Libraries 
+- Python (scikit-learn, XGBoost, pandas)
+- R (tidyverse, caret, ggplot2)
  
 1. Python Libraries: 
  
@@ -28,7 +30,7 @@ To accomplish these objectives, the project implements a full ML pipeline includ
 • ggplot2, cowplot, gridExtra: For rich and multi-faceted visualizations. 
 • caret, recipes, dplyr, forcats: For data preprocessing, feature engineering, and model tuning. 
 • randomForest, gbm, e1071, MASS: For implementing machine learning and statistical models. 
-•  pROC: For model evaluation using ROC curves. 
+• pROC: For model evaluation using ROC curves. 
 • cluster, FactoMineR, factoextra: For clustering analysis and dimensionality reduction. 
 • stats: For traditional statistical methods and unsupervised learning. 
  
